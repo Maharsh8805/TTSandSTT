@@ -1,34 +1,24 @@
-# Text-to-Speech (TTS) Web Application
+# Text-to-Speech (TTS) & Speech-to-Text (STT) Web Application
 
-A powerful and user-friendly web application that converts text into natural-sounding speech using Microsoft Edge's Neural TTS engine. Built with Flask, this tool offers a seamless interface for generating high-quality audio with customizable voice, speed, and pitch settings.
+A versatile web application that seamlessly handles both audio generation and voice transcription. Whether you need to turn text into lifelike speech or specific notes into written text, this tool has you covered.
 
 ## 🚀 Key Features
-- **High-Quality Voices**: Access to a wide range of natural-sounding neural voices (e.g., `hi-IN-MadhurNeural`).
-- **Customizable Audio**: Fine-tune the speech with adjustable **Rate** (speed) and **Pitch** settings.
-- **Smart Text Sanitization**: Automatically cleans input text to remove unnecessary symbols while preserving natural pauses and punctuation.
-- **Instant Playback**: Generate and listen to audio directly in the browser.
-- **Clean Interface**: Simple, responsive web UI for easy interaction.
 
-## 💡 Uses
-This application serves a variety of practical purposes:
+### 🗣️ Text-to-Speech (TTS)
+- **Natural Voices**: Powered by Microsoft Edge's Neural engine for realistic speech.
+- **Customizable**: Adjust **Speed** and **Pitch** to match your needs.
+- **Instant Playback**: Generate and listen to audio files on the fly.
 
-1.  **Content Creation**
-    - Generate professional-grade voiceovers for YouTube videos, podcasts, or social media content without needing a recording studio.
-2.  **Accessibility**
-    - Assist visually impaired users by reading digital text aloud.
-    - Create audio versions of blog posts, articles, or documentation.
-3.  **Language Learning**
-    - Listen to text in different languages and accents to practice pronunciation and listening comprehension.
-4.  **Prototyping & Development**
-    - Quickly generate placeholder audio assets for games, apps, or UI prototypes during the development phase.
-5.  **Educational Tools**
-    - Create audio-based learning materials for students or e-learning platforms.
+### 🎙️ Speech-to-Text (STT)
+- **Real-Time Transcription**: Converts your voice into text instantly using the Web Speech API.
+- **Continuous Listening**: Perfect for dictating long notes or documents.
+- **Downloadable Transcripts**: Save your transcribed text as a `.txt` file with one click.
 
-## 🌟 How It Is Helpful
-- **Cost-Effective**: Utilizes the free Microsoft Edge TTS engine, providing premium-quality neural voices without expensive subscriptions.
-- **Time-Saving**: Instantly converts long blocks of text into audio, saving hours of manual recording.
-- **User-Friendly**: No coding knowledge required to usage; the intuitive web interface makes advanced TTS technology accessible to everyone.
-- **Flexible**: Whether you need a slow, deep voice for a horror story or a fast, cheerful voice for a news update, the customization options put you in control.
+## 💡 Why Use It?
+- **Dual Functionality**: All your voice tools in one clean interface.
+- **Content Creation**: Generate voiceovers or draft scripts by speaking.
+- **Accessibility**: Read text aloud or write with your voice.
+- **Free & Easy**: No expensive subscriptions or complex setups required.
 
 ## 🛠️ Installation & Usage
 
@@ -49,7 +39,7 @@ This application serves a variety of practical purposes:
     ```
 
 4.  **Open in Browser:**
-    Go to `http://localhost:5000` to start using the app.
+    Go to `http://localhost:5000`. Use the toggle buttons to switch between **TTS** and **STT** modes.
 
 ## 📄 License
-This project is open-source and available for use.
+This project is open-source.
